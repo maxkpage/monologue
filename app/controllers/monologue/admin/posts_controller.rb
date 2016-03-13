@@ -66,6 +66,6 @@ private
   end
 
   def post_params
-    params.require(:post).permit(:published, :tag_list,:title,:content,:url,:published_at, :title_tag_content, :meta_description_content, :meta_keywords_content)
+    params.require(:post).permit(:published, :tag_list,:title,:content,:url,:published_at, :title_tag_content, :meta_description_content, :meta_keywords_content, :share_img_url)
   end
 end
